@@ -1,0 +1,23 @@
+{
+  "name": "bitman",
+  "version": "0.0.1",
+  "description": "Bit manipulation",
+  "author": "astralia astraliaz@gmail.com",
+  "private": "true",
+  "scripts": {
+    "install": "cd lib; npm install",
+    "jsdoc": "jsdoc -c jsdoc.conf",
+    "prepublish": "cd node_modules && ln -snf ../lib bitman",
+    "test": "node_modules/.bin/mocha --require should --reporter list test/mocha/**/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:astralia/bitman"
+  },
+
+  "devDependencies": {
+    "jsdoc": ">=3.0",
+    "mocha": ">=3.0.0",
+    "should": ">=11.1.0"
+  }
+}

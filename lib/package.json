@@ -1,0 +1,12 @@
+{
+  "name": "bitman",
+  "version": "0.0.1",
+  "description": "Bit manipulation",
+  "scripts": {
+    "test": "cd ..; npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/astralia/bitman"
+  }
+}
